@@ -5,7 +5,7 @@
 
 
 @font-face {
-  font-family: "../fonts/Raleway";
+  font-family: "Raleway";
   src: url("../fonts/Raleway-Regular.woff2") format("woff2"),
       url("../fonts/Raleway-Regular.woff") format("woff");
   font-weight: normal;
@@ -14,7 +14,7 @@
 }
 
 @font-face {
-  font-family: "../fonts/Raleway";
+  font-family: "Raleway";
   src: url("../fonts/Raleway-Bold.woff2") format("woff2"),
       url("../fonts/Raleway-Bold.woff") format("woff");
   font-weight: bold;
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-  font-family: "../fonts/Raleway";
+  font-family: "Raleway";
   src: url("../fonts/Raleway-Light.woff2") format("woff2"),
       url("../fonts/Raleway-Light.woff") format("woff");
   font-weight: 300;
@@ -54,4 +54,36 @@ img {
   height: auto;
 }
 body {
+}
+.container {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.contact-content {
+  font-family: "Raleway";
+  font-weight: 400;
+  background-color: #FFD500;
+  width: 350px;
+  height: 501px;
+  border-radius: 21.25px 0px 0px 21.25px;
+  padding: 90px 55px 60px 55px;
+}
+.registration-form {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.registretion-left {
+  width: 550px;
+  height: 501px;
+  padding-top: 55px;
+  padding-right: 70px;
+  padding-bottom: 55px;
+  padding-left: 70px;
+  background-color: #FFFFFF;
+  border-top-right-radius: 21.25px;
+  border-bottom-right-radius: 21.25px;
 }
